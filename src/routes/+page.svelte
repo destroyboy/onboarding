@@ -181,8 +181,8 @@
     let selectedEmployeeFields = new Map()
 
     onMount(async ()=>{
-        employees = data.prototype.getEmployees()
-        //await refreshEmployees()
+        //employees = data.prototype.getEmployees()
+        await refreshEmployees()
     })
 
     function preventEnter(e:KeyboardEvent) {
